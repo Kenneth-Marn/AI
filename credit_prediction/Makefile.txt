@@ -1,0 +1,4 @@
+creditrating: main.o 
+	g++ -g main.o -o creditrating.bin
+main.o: main.cpp  
+	g++ -c main.cpp

@@ -1,0 +1,7 @@
+inference: inference.o 
+		g++ -g inference.o  -o inference.bin
+
+main.o: inference.cpp
+	g++ -c inference.cpp
+	
+

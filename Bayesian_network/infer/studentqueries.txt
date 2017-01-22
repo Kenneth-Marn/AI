@@ -1,0 +1,4 @@
+P(H | D = false, I = true)
+
+P(J | H=true, I=false)
+
